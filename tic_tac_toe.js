@@ -12,6 +12,9 @@ let createArr = (x,y) =>{
 			}
 			newArr.push(arr);
 		}
+	}
+	if (x !== y){
+		return "Masukan format Array yang benar";
 	}	
 	for (let i = 0 ; i<x ; i++){
 		while (newArr[i].indexOf(0) !== -1){
@@ -25,7 +28,7 @@ let createArr = (x,y) =>{
 			}
 		}
 	}
-	console.log(newArr)
+	return newArr
 }
 
-createArr(3,3);
+console.log(createArr(3,3));
