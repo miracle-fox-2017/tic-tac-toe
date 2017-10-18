@@ -27,8 +27,6 @@ function ticTacToe(){
     }
     result.push(row);
   }
-  console.log(countX);
-  console.log(countO);
   return result;
 }
 
