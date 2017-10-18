@@ -29,16 +29,18 @@ function ticTacToe() {
     }
 
     else{
-        return null
+        return ticTacToe()
     }
 }
-function callTicTacToe(){
-    var nameTictactoe = ticTacToe();
-    while(nameTictactoe == null){
-        nameTictactoe = ticTacToe();
-    }
+// function callTicTacToe(){
+//     var nameTictactoe = ticTacToe();
+//     while(nameTictactoe == null){
+//         nameTictactoe = ticTacToe();
+//     }
 
-    return nameTictactoe;
-}
+//     return nameTictactoe;
+// }
 
-console.log(callTicTacToe());
+// console.log(callTicTacToe());
+
+console.log(ticTacToe());
